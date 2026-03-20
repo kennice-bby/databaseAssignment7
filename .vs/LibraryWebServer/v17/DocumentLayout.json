@@ -26,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\kenni\\Documents\\GitHub\\databaseAssignment7\\LibraryWebServer\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "LibraryWebServer\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\kenni\\Documents\\GitHub\\databaseAssignment7\\LibraryWebServer\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "LibraryWebServer\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAACYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T01:12:13.286Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -38,21 +51,7 @@
               "RelativeToolTip": "LibraryWebServer\\Models\\Patrons.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T02:17:24.715Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\kenni\\Documents\\GitHub\\databaseAssignment7\\LibraryWebServer\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "LibraryWebServer\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\kenni\\Documents\\GitHub\\databaseAssignment7\\LibraryWebServer\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "LibraryWebServer\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAqwCYAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T01:12:13.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-20T02:17:24.715Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "LibraryWebServer\\Models\\Team68LibraryContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T02:15:17.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-20T02:15:17.251Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "LibraryWebServer\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T02:05:58.981Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-20T02:05:58.981Z"
             }
           ]
         }

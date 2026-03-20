@@ -38,8 +38,7 @@
               "RelativeToolTip": "LibraryWebServer\\Models\\Patrons.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T02:17:24.715Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-20T02:17:24.715Z"
             },
             {
               "$type": "Document",
@@ -49,7 +48,7 @@
               "RelativeDocumentMoniker": "LibraryWebServer\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\kenni\\Documents\\GitHub\\databaseAssignment7\\LibraryWebServer\\Controllers\\HomeController.cs",
               "RelativeToolTip": "LibraryWebServer\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFgAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwCYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-20T01:12:13.286Z",
               "EditorCaption": ""
@@ -64,8 +63,7 @@
               "RelativeToolTip": "LibraryWebServer\\Models\\Team68LibraryContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T02:15:17.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-20T02:15:17.251Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "LibraryWebServer\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T02:05:58.981Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-20T02:05:58.981Z"
             }
           ]
         }
