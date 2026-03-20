@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
+using System.Xml.Linq;
 
 [assembly: InternalsVisibleTo( "TestProject1" )]
 namespace LibraryWebServer.Controllers
@@ -31,8 +32,16 @@ namespace LibraryWebServer.Controllers
         [HttpPost]
         public IActionResult CheckLogin( string name, int cardnum )
         {
-            // TODO: Fill in. Determine if login is successful or not.
             bool loginSuccessful = false;
+
+            using (Team68LibraryContext db = new Team68LibraryContext()) {
+                var query = from p in db.Patrons
+                            where p.Name == name 
+                            && p.CardNum == cardnum
+                            select p;
+
+                loginSuccessful = query.Any();
+            }
 
             if ( !loginSuccessful )
             {
@@ -72,10 +81,23 @@ namespace LibraryWebServer.Controllers
         [HttpPost]
         public ActionResult AllTitles()
         {
+            using (Team68LibraryContext db = new Team68LibraryContext())
+            {
+                var query = from p in db.Patrons
+                            join c in db.CheckedOut on p.CardNum equals c.CardNum
+                            join i in db.Inventory on c.Serial equals i.Serial
+                            join t in db.Titles on i.Isbn equals t.Isbn
+                            select new
+                            {
+                                isbn = i.Isbn,
+                                title = t.Title,
+                                author = t.Author,
+                                serial = i.Serial,
+                                name = p.Name
+                            };
 
-            // TODO: Implement
-
-            return Json( null );
+                return Json(query.ToArray());
+            }
 
         }
 
@@ -90,8 +112,21 @@ namespace LibraryWebServer.Controllers
         [HttpPost]
         public ActionResult ListMyBooks()
         {
-            // TODO: Implement
-            return Json( null );
+            using (Team68LibraryContext db = new Team68LibraryContext())
+            {
+                var query = from p in db.Patrons
+                            join c in db.CheckedOut on p.CardNum equals c.CardNum
+                            join i in db.Inventory on c.Serial equals i.Serial
+                            join t in db.Titles on i.Isbn equals t.Isbn
+                            where p.CardNum == card
+                            select new {
+                                title = t.Title,
+                                author = t.Author,
+                                serial = i.Serial
+                            };
+
+                return Json(query.ToArray());
+            }
         }
 
 
